@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtName">Nombre</string>
+    <string name="txtEmail">Correo electronico</string>
+    <string name="txtPass">Contraseña</string>
+    <string name="txtPassConfirm">Confirmar Contraseña</string>
+    <string name="lblRegister">Registrate</string>
+    <string name="btnCreateAccount">Crear mi cuenta</string>
+    <string name="title_activity_response">ResponseActivity</string>
+
+</resources>
