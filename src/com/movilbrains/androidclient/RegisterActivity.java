@@ -60,15 +60,16 @@ public class RegisterActivity extends Activity implements OnClickListener {
 		// Create a new HttpClient and Post Header
 		HttpClient httpclient = new DefaultHttpClient();
 		HttpPost httppost = new HttpPost(
-				"http://nuestrosprecios.herokuapp.com/api/users/new");
+				"https://nuestrosprecios.herokuapp.com/api/users/new");
+				//"http://192.168.1.9:8080/api/users/new");
 		httppost.setHeader("Content-Type", "application/json");
 		httppost.setHeader("Accept", "application/json");
 
 		try {
 			JSONObject params = new JSONObject();
 			try {
-				params.put("name", "name");
-				params.put("email", "create@mail.com");
+				params.put("name", "name2");
+				params.put("email", "create2@mail.com");
 				params.put("password", "create123");
 				params.put("password_confirmation", "create123");
 			} catch (JSONException e1) {
