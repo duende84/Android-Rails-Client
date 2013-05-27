@@ -68,10 +68,10 @@ public class RegisterActivity extends Activity implements OnClickListener {
 		try {
 			JSONObject params = new JSONObject();
 			try {
-				params.put("name", "name2");
-				params.put("email", "create2@mail.com");
-				params.put("password", "create123");
-				params.put("password_confirmation", "create123");
+				params.put("name", "andres");
+				params.put("email", "andreselduende@gmail.com");
+				params.put("password", "admin123");
+				params.put("password_confirmation", "admin123");
 			} catch (JSONException e1) {
 				e1.printStackTrace();
 			}
